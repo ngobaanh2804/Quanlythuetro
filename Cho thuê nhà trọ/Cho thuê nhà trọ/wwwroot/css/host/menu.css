@@ -1,0 +1,6 @@
+﻿.menu {
+    width: 100%;
+    height: calc(100vh - 55px);
+    background-image: url('../../content/pexels-vecislavas-popa-1571460.jpg');
+    background-repeat: no-repeat;
+}

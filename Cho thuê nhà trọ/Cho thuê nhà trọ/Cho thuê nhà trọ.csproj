@@ -5,9 +5,5 @@
     <RootNamespace>Cho_thuê_nhà_trọ</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\Images\" />
-  </ItemGroup>
-
 
 </Project>
