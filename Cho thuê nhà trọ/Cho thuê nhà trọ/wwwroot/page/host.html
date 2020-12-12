@@ -24,13 +24,178 @@
         </div>
     </div>
     <div class="menu">
-        <div class="select-button">
-            <button>Đăng bài cho thuê</button>
-            <button>Chỉnh sửa thông tin</button>
-            <button>Gia hạn bài đăng</button>
-        </div>
-        <div class="form">
+        <!--<div class="form">
+            <div class="select-button">
+                <button>Đăng bài cho thuê</button>
+                <button>Chỉnh sửa thông tin</button>
+                <button>Gia hạn bài đăng</button>
+            </div>
+        </div>-->
+        <div class="form-dialog">
+            <div class="dialog-model"></div>
+            <div class="dialog">
+                <div class="dialog-title">
+                    <div class="title">Thông tin phòng trọ</div>
+                    <div class="btn-close" id="btnCloseHeader"></div>
+                </div>
+                <div class="dialog-body">
+                    <div class="address">
+                        <h3>Địa chỉ</h3>
 
+                        <label>Tỉnh/Thành phố</label>
+                        <select>
+                            <option>Hà Nội</option>
+                            <option>Bắc Ninh</option>
+                            <option>Ninh Bình</option>
+                            <option>Bắc Giang</option>
+                        </select>
+
+                        <label>Quận/huyện/Thành phố</label>
+                        <select>
+                            <option>Cầu Giấy</option>
+                            <option>Hoàng Mai</option>
+                            <option>Hà Đông</option>
+                            <option>Thanh Xuân</option>
+                            <option>Nam Từ Liêm</option>
+                            <option>Bắc Từ Liêm</option>
+                            <option>Đống Đa</option>
+                            <option>Tây Hồ</option>
+                            <option>Hoàn Kiếm</option>
+                            <option>Long Biên</option>
+                            <option>Hai Bà Trưng</option>
+                            <option>Ba Đình</option>
+                        </select>
+
+                        <label>Xã/Phường/Thị trấn</label>
+                        <select>
+                            <option>Dịch Vọng</option>
+                            <option> Dịch Vọng Hậu</option>
+                            <option>Quan Hoa</option>
+                            <option>Trung Hòa</option>
+                            <option>Yên Hòa</option>
+                            <option>Nghĩa Đô</option>
+                            <option>Nghĩa Tân</option>
+                            <option>Mai Dịch</option>
+                        </select>
+
+                        <br />
+                        <div class="more-info">
+                            <h4>Thông tin thêm</h4>
+                            <input type="text" value="Ví dụ: Gần Công viên Cầu Giấy" />
+                            
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <h3>Thông tin phòng</h3>
+
+                        <label>Loại phòng</label>
+                        <select>
+                            <option>Chung cư MINI</option>
+                            <option>Nhà nguyên căn</option>
+                            <option>Chung cư nguyên căn</option>
+                            <option>Phòng trọ</option>
+                        </select>
+
+                        <br />
+
+                        <label>Số lượng</label>
+                        <input type="number" />
+
+                        <br />
+
+                        <label>Giá Phòng</label>
+                        <input type="number" /> Vnđ
+
+                        <br />
+
+                        <label>Diện tích</label>
+                        <input type="text" /> m2
+
+                        <div>
+                            <h4>Cơ sở vật chất</h4>
+
+                            <div style="display:flex">
+                                <label>Chung chủ</label>
+                                <input type="radio" checked="checked" />
+                                <label>Có</label>
+
+                                <input type="radio" />
+                                <label>Không</label>
+                            </div>
+
+                            <div>
+                                <label>Khép kín</label>
+                                <input type="radio" checked="checked" />
+                                <label>Có</label>
+
+                                <input type="radio" />
+                                <label>Không</label>
+                            </div>
+
+                            <label>Ban công</label>
+
+                            <input type="radio" checked="checked" />
+                            <label>Có</label>
+
+                            <input type="radio" />
+                            <label>Không</label>
+
+                            <br />
+
+                            <label>Tiền điện</label>
+
+                            <input type="number" /> /1 số
+
+                            <br />
+
+                            <label>Tiền nước</label>
+
+                            <input type="number" /> /1 số
+
+                            <br />
+
+                            <label>Tiện ích khác</label>
+                            <input type="checkbox" />
+                            <label>Điều hòa</label>
+                            <input type="checkbox" />
+                            <label>Nóng lạnh</label>
+                            <input type="checkbox" />
+                            <label>Máy giặt</label>
+                            <input type="checkbox" />
+                            <label>Giường</label>
+                            <input type="checkbox" />
+                            <label>Tủ</label>
+                            <input type="checkbox" />
+                            <label>Chỗ để xe</label>
+                            <input type="checkbox" />
+                            <label>Wifi</label>
+
+                            <div>
+                                <label>Hình ảnh phòng</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dialog-footer">
+                    <div class="left_button">
+                        <button>
+                            <div class="btn-icon btn-icon-help"></div>
+                            <div class="btn-text">Trợ giúp</div>
+                        </button>
+                    </div>
+                    <div class="right_button">
+                        <button id="btnCancel">
+                            <div class="btn-icon btn-icon-cancel"></div>
+                            <div class="btn-text">Hủy bỏ</div>
+                        </button>
+                        <button id="btnSave">
+                            <div class="btn-icon btn-icon-save"></div>
+                            <div class="btn-text">Đồng ý</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

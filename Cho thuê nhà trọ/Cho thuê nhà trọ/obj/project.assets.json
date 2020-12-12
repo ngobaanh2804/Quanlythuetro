@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NBAnh\\source\\repos\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
+      "projectUniqueName": "C:\\Users\\NBAnh\\Desktop\\Thue tro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
       "projectName": "Cho thuê nhà trọ",
-      "projectPath": "C:\\Users\\NBAnh\\source\\repos\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
+      "projectPath": "C:\\Users\\NBAnh\\Desktop\\Thue tro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
       "packagesPath": "C:\\Users\\NBAnh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NBAnh\\source\\repos\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\obj\\",
+      "outputPath": "C:\\Users\\NBAnh\\Desktop\\Thue tro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NBAnh\\AppData\\Roaming\\NuGet\\NuGet.Config",

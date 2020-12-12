@@ -1,5 +1,7 @@
-﻿body{
+﻿body {
     margin: 0;
+    background-image: url('../../content/pexels-vecislavas-popa-1571460.jpg');
+/*    background-repeat: no-repeat;*/
 }
 .header {
     width: 100%;
