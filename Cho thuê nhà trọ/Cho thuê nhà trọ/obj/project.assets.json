@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\NBAnh\\.nuget\\packages\\": {}
+    "C:\\Users\\ngoba\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NBAnh\\Desktop\\Thue tro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
+      "projectUniqueName": "C:\\Users\\ngoba\\OneDrive\\Máy tính\\Thuetro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
       "projectName": "Cho thuê nhà trọ",
-      "projectPath": "C:\\Users\\NBAnh\\Desktop\\Thue tro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
-      "packagesPath": "C:\\Users\\NBAnh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NBAnh\\Desktop\\Thue tro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\obj\\",
+      "projectPath": "C:\\Users\\ngoba\\OneDrive\\Máy tính\\Thuetro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\Cho thuê nhà trọ.csproj",
+      "packagesPath": "C:\\Users\\ngoba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ngoba\\OneDrive\\Máy tính\\Thuetro\\Quanlythuetro\\Cho thuê nhà trọ\\Cho thuê nhà trọ\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NBAnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ngoba\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

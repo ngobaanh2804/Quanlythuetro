@@ -38,3 +38,23 @@ C:\Users\NBAnh\Desktop\Thue tro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nh�
 C:\Users\NBAnh\Desktop\Thue tro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.dll
 C:\Users\NBAnh\Desktop\Thue tro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.pdb
 C:\Users\NBAnh\Desktop\Thue tro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.genruntimeconfig.cache
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\Cho thuê nhà trọ.exe
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\Cho thuê nhà trọ.deps.json
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\Cho thuê nhà trọ.runtimeconfig.json
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\Cho thuê nhà trọ.runtimeconfig.dev.json
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\Cho thuê nhà trọ.dll
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\bin\Debug\netcoreapp3.1\Cho thuê nhà trọ.pdb
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.csprojAssemblyReference.cache
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.AssemblyInfoInputs.cache
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.AssemblyInfo.cs
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.csproj.CoreCompileInputs.cache
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.RazorTargetAssemblyInfo.cache
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\staticwebassets\Cho thuê nhà trọ.StaticWebAssets.Manifest.cache
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\staticwebassets\Cho thuê nhà trọ.StaticWebAssets.xml
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.dll
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.pdb
+C:\Users\ngoba\OneDrive\Máy tính\Thuetro\Quanlythuetro\Cho thuê nhà trọ\Cho thuê nhà trọ\obj\Debug\netcoreapp3.1\Cho thuê nhà trọ.genruntimeconfig.cache

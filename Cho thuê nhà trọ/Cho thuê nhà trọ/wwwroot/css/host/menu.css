@@ -90,47 +90,120 @@
 .dialog .dialog-body {
     width: 100%;
     height: 700px;
+    overflow: auto;
 }
+
+    .dialog .dialog-body .address {
+        width: 100%;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+        .dialog .dialog-body .address .address-detail {
+            display: flex;
+        }
+
+            .dialog .dialog-body .address .address-detail label {
+                width: 150px;
+                margin-left: 10px;
+            }
+
+            .dialog .dialog-body .address .address-detail select {
+                width: 150px;
+                height: 30px;
+            }
+
+        .dialog .dialog-body .address .more-info input {
+            width: 90%;
+            height: 40px;
+        }
+
+        .dialog .dialog-body .address h4 {
+        }
+
+
+    .dialog .dialog-body .detail {
+        width: 100%;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+
+        .dialog .dialog-body .detail .room-info {
+            display: flex;
+            margin-top: 10px;
+            height: 30px;
+        }
+
+            .dialog .dialog-body .detail .room-info label {
+                width: 200px;
+            }
+
+            .dialog .dialog-body .detail .room-info input {
+                width: 200px;
+            }
+
+        .dialog .dialog-body .detail .radio {
+            display: flex;
+            margin-top: 10px;
+            height: 30px;
+        }
+
+            .dialog .dialog-body .detail .radio label {
+                width: 200px;
+            }
+
+        .dialog .dialog-body .detail .checked {
+            display: flex;
+            margin-top: 10px;
+            height: 30px;
+        }
+
+            .dialog .dialog-body .detail .checked label {
+                width: 200px;
+            }
+
+            .dialog .dialog-body .detail .checked .checked-box input {
+                width: 20px;
+                height: 20px;
+            }
+
+            .dialog .dialog-body .detail .checked .checked-box {
+                width: 120px;
+            }
+
+        .dialog .dialog-body .detail .image {
+            width: 90%;
+            height: 200px;
+            border: 1px solid #000000;
+        }
+
+        .dialog .dialog-body .detail .info-host {
+            display: flex;
+            margin-top: 10px;
+            height: 30px;
+        }
+
+            .dialog .dialog-body .detail .info-host label {
+                width: 200px;
+            }
+
+            .dialog .dialog-body .detail .info-host input {
+                width: 200px;
+            }
 
 .dialog .dialog-footer {
     display: flex;
     align-items: center;
-    height: 56px;
+    height: 76px;
     padding-right: 8px;
     padding-left: 8px;
 }
 
-/*.dialog .dialog-footer .btn-icon-help {
-        background-image: url('../../content/iconsprite.png');
-        background-position: 0 -1600px;
-        background-repeat: no-repeat;
-        width: 15px;
-        height: 15px;
-    }
-
-    .dialog .dialog-footer .btn-icon-save {
-        background-image: url('../../content/iconsprite.png');
-        background-position: -1px -2416px;
-        background-repeat: no-repeat;
-        width: 15px;
-        height: 15px;
-    }
-
-    .dialog .dialog-footer btn-icon-cancel {
-        background-image: url('../../content/iconsprite.png');
-        background-position: 0 -1968px;
-        background-repeat: no-repeat;
-        width: 15px;
-        height: 15px;
-    }*/
-
-
-/*Button*/
-
 .dialog button {
     display: flex;
     align-items: center;
-    height: 25px;
+    height: 30px;
     border-radius: 2px;
     border-style: solid;
     border-width: 1px;
@@ -168,7 +241,6 @@ button .btn-icon.btn-icon-cancel {
 
 button .btn-text {
     margin-left: 8px;
-
 }
 
 .left_button {
