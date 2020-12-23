@@ -8,6 +8,8 @@
     <link href="../css/host/extend.css" rel="stylesheet" />
 </head>
 <body>
+
+    <!--Header-->
     <div class="header">
         <div class="header-left">
             <div class="left-logo"></div>
@@ -24,14 +26,20 @@
             <div class="right-logo"></div>
         </div>
     </div>
+
+    <!--menu-->
     <div class="menu">
-        <div class="form">
+
+        <!--Lựa chọn vai trò thao tác-->
+        <div class="form" style="display: none">
             <div class="select-button">
                 <button>Đăng bài cho thuê</button>
                 <button>Chỉnh sửa thông tin</button>
                 <button>Gia hạn bài đăng</button>
             </div>
         </div>
+
+        <!--dialog thêm/sửa thông tin phòng-->
         <div class="form-dialog" style="display: none">
             <div class="dialog-model"></div>
             <div class="dialog">
@@ -240,14 +248,190 @@
                 </div>
             </div>
         </div>
-        <div class="form-extend" style="display:none">
+
+        <!--Bài đăng đang chờ duyệt-->
+        <div class="form-extend" style="display: none">
             <div class="title-form">
-                <label>Gia hạn thêm bài đăng</label>
+                <label>Bài đăng đang chờ duyệt</label>
+                <div class="btn-close" id="btnCloseHeader"></div>
             </div>
             <div class="body-form">
+                <div class="button-form">
+                    <div class="button-edit">
+                        <button>Chỉnh sửa</button>
+                    </div>
+                    <div class="button-delete">
+                        <button>Xóa</button>
+                    </div>
+                </div>
+                <div class="grid">
+                    <table border="1" class="table">
+                        <thead style="border:1px solid #ccc">
+                            <tr>
+                                <th width=400px><div>Bài đăng</div></th>
+                                <th width=200px><div>Ngày đăng bài</div></th>
+                                <th width=200px><div>Trạng thái</div></th>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>Này 20/12/2020</td>
+                                <td>Đang chờ duyệt</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>Này 20/12/2020</td>
+                                <td>Đang chờ duyệt</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>Này 20/12/2020</td>
+                                <td>Đang chờ duyệt</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>Này 20/12/2020</td>
+                                <td>Đang chờ duyệt</td>
+                            </tr>
+                        </thead>
 
+                        <tbody>
+                            <!-- dữ liệu truyền vào từ JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--Xóa bài đăng-->
+        <div class="popup-delete" style="display:none">
+            <div class="title-form">
+                <label>Bài đăng đang chờ duyệt</label>
+            </div>
+            <div class="body-form">
+                <label>Bạn có chắc chắn muốn xóa bài?</label>
+                <div class="button-form">
+                    <div class="button-no">
+                        <button>Huỷ bỏ</button>
+                    </div>
+                    <div class="button-yes">
+                        <button>Đồng ý</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Bài đăng đã được duyệt-->
+        <div class="form-approved">
+            <div class="title-form">
+                <label>Bài đăng đã được duyệt</label>
+                <div class="btn-close" id="btnCloseHeader"></div>
+            </div>
+            <div class="body-form">
+                <div class="button-form">
+                    <div class="button-update">
+                        <button>Cập nhật</button>
+                    </div>
+                    <div class="button-extend">
+                        <button>Gia hạn</button>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <table border="1" class="table">
+                        <thead style="border:1px solid #ccc">
+                            <tr>
+                                <th width=400px><div>Bài đăng</div></th>
+                                <th width=200px><div>Ngày duyệt bài</div></th>
+                                <th width=200px><div>Trạng thái</div></th>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                            <tr>
+                                <td>Cho thuê nhà trọ giá rẻ</td>
+                                <td>20/12/2020</td>
+                                <td>Đã cho thuê</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <!-- dữ liệu truyền vào từ JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--Cập nhật trạng thái phòng-->
+        <div class="popup-status" style="display: none">
+            <div class="title-form">
+                <label>Bài đăng đã được duyệt</label>
+            </div>
+            <div class="body-form">
+                <label>Bạn muốn cập nhật trạng thái?</label>
+                <br />
+                <div class="status">
+                    <label>Trạng thái phòng</label>
+                    <select>
+                        <option>Còn trống</option>
+                        <option>Đã cho thuê</option>
+                    </select>
+                </div>
+                <div class="button-form">
+                    <div class="button-no">
+                        <button>Huỷ bỏ</button>
+                    </div>
+                    <div class="button-yes">
+                        <button>Đồng ý</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Gia hạn bài đăng-->
+        <div class="popup-extend" style="display:none">
+            <div class="title-form">
+                <label>Bài đăng đã được duyệt</label>
+            </div>
+            <div class="body-form">
                 <label>Bạn muốn gia hạn thêm bài đăng?</label>
-
                 <div class="info-time">
                     <div class="info-time-text">Thời gian đăng bài</div>
                     <input type="text" />
@@ -266,7 +450,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </body>

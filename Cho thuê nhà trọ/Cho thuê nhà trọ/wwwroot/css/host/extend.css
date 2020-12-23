@@ -1,9 +1,218 @@
-﻿.form-extend {
+﻿/*POPUP-EXTEND*/
+.popup-extend {
     width: 400px;
     height: 200px;
     position: fixed;
     top: calc(50% - 100px);
     left: calc(50% - 200px);
+    border-radius: 4px;
+    border: 5px solid #403838;
+    background-color: #f8f8f8;
+}
+
+    .popup-extend .title-form {
+        width: 100%;
+        height: 24px;
+        background-color: #403838;
+        color: #f8f8f8;
+    }
+
+        .popup-extend .title-form label {
+            margin-left: 10px;
+        }
+
+    .popup-extend .body-form {
+        padding-top: 10px;
+        width: 100%;
+        height: calc(100% - 34px);
+    }
+
+        .popup-extend .body-form label {
+            margin-left: 10px;
+        }
+
+        .popup-extend .body-form .info-time {
+            display: flex;
+            margin-top: 10px;
+            width: 100%;
+            height: 30px;
+        }
+
+            .popup-extend .body-form .info-time .info-time-text {
+                width: 180px;
+                margin-left: 10px;
+            }
+
+            .popup-extend .body-form .info-time input {
+                width: 180px;
+            }
+
+        .popup-extend .body-form .button-form {
+            justify-content: flex-end;
+            margin-top: 35px;
+            display: flex;
+            height: 35px;
+        }
+
+            .popup-extend .body-form .button-form button {
+                margin-right: 10px;
+                height: 25px;
+                width: 100px;
+            }
+
+                .popup-extend .body-form .button-form button:hover {
+                    cursor: pointer;
+                }
+
+            .popup-extend .body-form .button-form .button-no {
+            }
+
+            .popup-extend .body-form .button-form .button-yes button {
+                margin-right: 10px;
+                background-color: #0a73cc;
+            }
+
+
+/*POPUP-STATUS*/
+.popup-status {
+    width: 400px;
+    height: 150px;
+    position: fixed;
+    top: calc(50% - 75px);
+    left: calc(50% - 200px);
+    border-radius: 4px;
+    border: 5px solid #403838;
+    background-color: #f8f8f8;
+}
+
+    .popup-status .title-form {
+        width: 100%;
+        height: 24px;
+        background-color: #403838;
+        color: #f8f8f8;
+    }
+
+        .popup-status .title-form label {
+            margin-left: 10px;
+        }
+
+    .popup-status .body-form {
+        padding-top: 10px;
+        width: 100%;
+        height: calc(100% - 34px);
+    }
+
+        .popup-status .body-form label {
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        .popup-status .body-form .status {
+            display: flex;
+            margin-top: 10px;
+        }
+
+            .popup-status .body-form .status label {
+                font-size: 18px;
+            }
+
+            .popup-status .body-form .status select {
+                margin-left: 15px;
+                width: 100px;
+            }
+
+        .popup-status .body-form .button-form {
+            justify-content: flex-end;
+            margin-top: 35px;
+            display: flex;
+            height: 35px;
+        }
+
+            .popup-status .body-form .button-form button {
+                margin-right: 10px;
+                height: 25px;
+                width: 100px;
+            }
+
+                .popup-status .body-form .button-form button:hover {
+                    cursor: pointer;
+                }
+
+            .popup-status .body-form .button-form .button-no {
+            }
+
+            .popup-status .body-form .button-form .button-yes button {
+                margin-right: 10px;
+                background-color: #0a73cc;
+            }
+
+/*POPUP-DELETE*/
+.popup-delete {
+    width: 400px;
+    height: 150px;
+    position: fixed;
+    top: calc(50% - 75px);
+    left: calc(50% - 200px);
+    border-radius: 4px;
+    border: 5px solid #403838;
+    background-color: #f8f8f8;
+}
+
+    .popup-delete .title-form {
+        width: 100%;
+        height: 24px;
+        background-color: #403838;
+        color: #f8f8f8;
+    }
+
+        .popup-delete .title-form label {
+            margin-left: 10px;
+        }
+
+    .popup-delete .body-form {
+        padding-top: 10px;
+        width: 100%;
+        height: calc(100% - 34px);
+    }
+
+        .popup-delete .body-form label {
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        .popup-delete .body-form .button-form {
+            justify-content: flex-end;
+            margin-top: 50px;
+            display: flex;
+            height: 35px;
+        }
+
+            .popup-delete .body-form .button-form button {
+                margin-right: 10px;
+                height: 25px;
+                width: 100px;
+            }
+
+                .popup-delete .body-form .button-form button:hover {
+                    cursor: pointer;
+                }
+
+            .popup-delete .body-form .button-form .button-no {
+            }
+
+            .popup-delete .body-form .button-form .button-yes button {
+                margin-right: 10px;
+                background-color: #0a73cc;
+            }
+
+
+/*FORM-EXTEND*/
+.form-extend {
+    width: 800px;
+    height: 400px;
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 400px);
     border-radius: 4px;
     border: 5px solid #403838;
     background-color: #f8f8f8;
@@ -18,55 +227,161 @@
 
         .form-extend .title-form label {
             margin-left: 10px;
-        } 
-        
-        .form-extend .body-form {
-            padding-top: 10px;
-            width: 100%;
-            height: calc(100% - 34px);
         }
 
-        .form-extend .body-form label {
-            margin-left: 10px;
+        .form-extend .title-form .btn-close {
+            line-height: 28px;
+            float: right;
+            border-radius: 50%;
+            background-color: white;
+            background-image: url('../../content/iconsprite.png');
+            background-position: 2px -2679px;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
         }
 
-        .form-extend .body-form .info-time {
-            display: flex;
-            margin-top: 10px;
-            width: 100%;
-            height: 30px;
-        }
-
-            .form-extend .body-form .info-time .info-time-text {
-                width: 180px;
-                margin-left: 10px;
-            }
-
-            .form-extend .body-form .info-time input {
-                width: 180px;
-            }
+    .form-extend .body-form {
+        padding-top: 10px;
+        width: 100%;
+        height: calc(100% - 34px);
+    }
 
         .form-extend .body-form .button-form {
             justify-content: flex-end;
-            margin-top: 35px;
+            margin-right: 10px;
             display: flex;
             height: 35px;
         }
 
             .form-extend .body-form .button-form button {
-                margin-right: 10px;
                 height: 25px;
                 width: 100px;
             }
 
                 .form-extend .body-form .button-form button:hover {
                     cursor: pointer;
-                } 
-                
-                .form-extend .body-form .button-form .button-no {
                 }
+
+            .form-extend .body-form .button-form .button-no {
+            }
 
             .form-extend .body-form .button-form .button-yes button {
                 margin-right: 10px;
                 background-color: #0a73cc;
             }
+
+        .form-extend .body-form .grid {
+            margin-left: 10px;
+            width: 780px;
+            border: 1px solid #ccc;
+            border-top: none;
+            overflow: auto;
+            white-space: nowrap;
+        }
+
+.grid table {
+    border-collapse: collapse;
+    border-color: #ccc;
+    border: none;
+    min-width: 100%;
+    text-align: center;
+    /* display: block; */
+}
+
+table thead {
+    border-top: none;
+    background-color: #ededed !important;
+}
+
+    table thead th {
+        font-weight: normal;
+        height: 26px;
+        cursor: pointer;
+    }
+
+    table thead td {
+        font-weight: normal;
+        height: 26px;
+        cursor: pointer;
+    }
+    table thead tr:hover {
+        background-color: #a4befc;
+    }
+
+
+/*FORM-APPROVED*/
+.form-approved {
+    width: 800px;
+    height: 400px;
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 400px);
+    border-radius: 4px;
+    border: 5px solid #403838;
+    background-color: #f8f8f8;
+}
+
+    .form-approved .title-form {
+        width: 100%;
+        height: 24px;
+        background-color: #403838;
+        color: #f8f8f8;
+    }
+
+        .form-approved .title-form label {
+            margin-left: 10px;
+        }
+
+        .form-approved .title-form .btn-close {
+            line-height: 28px;
+            float: right;
+            border-radius: 50%;
+            background-color: white;
+            background-image: url('../../content/iconsprite.png');
+            background-position: 2px -2679px;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    .form-approved .body-form {
+        padding-top: 10px;
+        width: 100%;
+        height: calc(100% - 34px);
+    }
+
+        .form-approved .body-form .button-form {
+            justify-content: flex-end;
+            margin-right: 10px;
+            display: flex;
+            height: 35px;
+        }
+
+            .form-approved .body-form .button-form button {
+                height: 25px;
+                width: 100px;
+            }
+
+                .form-approved .body-form .button-form button:hover {
+                    cursor: pointer;
+                }
+
+            .form-approved .body-form .button-form .button-no {
+            }
+
+            .form-approved .body-form .button-form .button-yes button {
+                margin-right: 10px;
+                background-color: #0a73cc;
+            }
+
+        .form-approved .body-form .grid {
+            margin-left: 10px;
+            width: 780px;
+            border: 1px solid #ccc;
+            border-top: none;
+            overflow: auto;
+            white-space: nowrap;
+        }
+
