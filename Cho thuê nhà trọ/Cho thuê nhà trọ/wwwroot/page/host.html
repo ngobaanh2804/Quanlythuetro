@@ -321,7 +321,7 @@
         </div>
 
         <!--Bài đăng đã được duyệt-->
-        <div class="form-approved">
+        <div class="form-approved" style="display: none">
             <div class="title-form">
                 <label>Bài đăng đã được duyệt</label>
                 <div class="btn-close" id="btnCloseHeader"></div>
@@ -450,6 +450,24 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!--Chatbox-->
+        <button class="nut-mo-chatbox" onclick="moForm()" style="display:none">Chatbox</button>
+        <div class="Chatbox">
+            <form action="" class="form-container">
+                <h2>Chatbox</h2>
+                <label for="msg"><b>Lời Nhắn</b></label>
+                <div class="view-chat"> 
+                    <p>Hello</p>
+                    <p>xin chào</p>
+                    <p>Tôi có thể giúp gì cho bạn</p>
+                   
+                </div>
+                <textarea placeholder="Bạn hãy nhập lời nhắn.." name="msg" required></textarea>
+                <button type="submit" class="btn">Gửi</button>
+                <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Đóng</button>
+            </form>
         </div>
     </div>
 </body>
